@@ -7,3 +7,7 @@ The CPU card is essentially identical across all five models: the 520, 520c, 540
 The drawings are a work in progress so I expect there to be some errors, although hopefully just minor ones.
 
 Follow this link to jump to the [PDF Schematics Directory](https://github.com/croissantking/PowerBook-500-Schematics/tree/main/docs).
+
+### Acknowledgements
+
+With thanks to oldcrap.org for permission to re-use their PowerBook 540c CPU card scans.
