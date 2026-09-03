@@ -1,2 +1,1 @@
-Full readme and accompanying files coming soon.
-I manually traced out the CPU card of a PowerBook 500 Series in order to draw up schematics, which are otherwise missing.
+The PowerBook 500 Series is a very popular laptop with hobbyists. Lately I have been tinkering a lot with mine. Unfortunately no schematics are available which limits repair and modding potential. In an effort to remedy this, I studied a PowerBook 500 Series CPU Card with a multimeter and drew up schematics in KiCad.
