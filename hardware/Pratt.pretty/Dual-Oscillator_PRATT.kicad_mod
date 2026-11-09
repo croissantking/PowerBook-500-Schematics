@@ -1,0 +1,414 @@
+(footprint "Dual-Oscillator_PRATT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "IQD IQXO-70, Crystal Clock Oscillator, 7.5x5.0mm package, SMD, http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf")
+	(property "Reference" "REF**"
+		(at -5.5 -7 0)
+		(layer "F.SilkS")
+		(uuid "2b634790-89cc-4954-9c9f-9c31caa8d8f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Dual-Oscillator_PRATT"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "89371e8c-77b0-47bc-89a3-34b0f74e6bc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "907c814e-53f0-40ec-960e-7f1905311a6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d9b5ea9-75a4-409a-8bec-4947a11abe91")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "crystal_resonator_oscillator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "432f991a-9e57-4056-82ef-c652f24cc0bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.264075 -4.596087)
+		(end -6.264075 -4.596087)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8ffb647-2caa-4967-bb5b-538c66df1756")
+	)
+	(fp_line
+		(start -7.264075 -3.596087)
+		(end -7.264075 -4.596087)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9935106c-4bd6-4352-8b58-717fe2a64dc5")
+	)
+	(fp_line
+		(start -7.263576 3.573468)
+		(end -7.263576 4.573468)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4d7b8b3-3f20-4aba-b841-0a3c9fd51360")
+	)
+	(fp_line
+		(start -7.263576 4.573468)
+		(end -6.263576 4.573468)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f424cec-a878-49ff-a9a4-c0271440c447")
+	)
+	(fp_line
+		(start -4 -2.76)
+		(end -3.5 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6449bf2c-63fc-4753-868c-7fd7d3c0cd62")
+	)
+	(fp_line
+		(start -4 -1.76)
+		(end -4 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a54747d8-c1a0-45c7-80e0-a22d75871943")
+	)
+	(fp_line
+		(start -4 1.76)
+		(end -4 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dff2579e-cf97-4931-8bb9-c1873670bcf7")
+	)
+	(fp_line
+		(start -4 2.76)
+		(end -3.5 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e28c07b-d39c-4b8d-8ce9-541a75e05321")
+	)
+	(fp_line
+		(start 4 -2.75)
+		(end 3.5 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ad2d056-26fc-47c9-95d8-ec40ada4d3f4")
+	)
+	(fp_line
+		(start 4 -1.75)
+		(end 4 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f441de99-af92-46cc-9f7a-8cb7648df5cd")
+	)
+	(fp_line
+		(start 4 1.76)
+		(end 4 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40efe364-5e00-4e87-bd55-7f3b0e1ff3d4")
+	)
+	(fp_line
+		(start 4 2.76)
+		(end 3.5 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b461c03-5914-4f71-a643-78a8ca1d2695")
+	)
+	(fp_line
+		(start 7.256396 -4.593615)
+		(end 6.256396 -4.593615)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da76a950-f709-4fce-9ee0-9f00f7d93d19")
+	)
+	(fp_line
+		(start 7.256396 -3.593615)
+		(end 7.256396 -4.593615)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3eb2d08-0125-4f35-ad60-831d5daed67e")
+	)
+	(fp_line
+		(start 7.257612 3.577427)
+		(end 7.257612 4.577427)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6de93248-48ca-4db7-a13a-20687e4265c2")
+	)
+	(fp_line
+		(start 7.257612 4.577427)
+		(end 6.257612 4.577427)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68a579f1-fd03-4135-bcac-e58752ebfd46")
+	)
+	(fp_circle
+		(center -3.75 5.25)
+		(end -3.534578 5.311603)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7f0096bf-6550-4e76-9e7e-c716f7a95e75")
+	)
+	(fp_rect
+		(start -7.500414 -6.159611)
+		(end 7.499586 6.140389)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c0bcbafd-0223-4a09-b06b-2bff92cb13e2")
+	)
+	(fp_line
+		(start -7.000414 -4.334611)
+		(end 6.999586 -4.334611)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f300a9b5-6d70-43e1-ada9-a65ba8deda75")
+	)
+	(fp_line
+		(start -7.000414 -0.509611)
+		(end -7.000414 -4.334611)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76b9665f-ed1c-4807-a7af-f4f7be029d97")
+	)
+	(fp_line
+		(start -7.000414 4.315389)
+		(end -7.000414 0.490389)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "221ccaf0-1f6f-4fb8-958b-73195798576f")
+	)
+	(fp_line
+		(start 6.999586 -4.334611)
+		(end 6.999586 4.315389)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c915783b-5e84-4709-b30e-c01e933bf19c")
+	)
+	(fp_line
+		(start 6.999586 4.315389)
+		(end -7.000414 4.315389)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c687025-3165-4d28-9c40-309923323b48")
+	)
+	(fp_arc
+		(start -7.000414 -0.509611)
+		(mid -6.500414 -0.009611)
+		(end -7.000414 0.490389)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "578d977e-d7b6-4266-96a3-6f27e82332ee")
+	)
+	(fp_poly
+		(pts
+			(xy 3.75 -2.5) (xy 3.75 2.5) (xy -2.75 2.5) (xy -3.75 1.5) (xy -3.75 -2.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "23452ec2-cfb5-46b4-bca6-c39703daf3ba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.000414 -7.25 0)
+		(layer "F.Fab")
+		(uuid "5f6088db-5d03-4fbb-9b09-8bc5b6a7628c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4c61e9b4-67ae-416c-a588-8aa24186641e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.540413 3.695194)
+		(size 1.299998 4.390388)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923079882)
+		(uuid "c4e2aa29-b7dc-46d9-8332-bf587becc12f")
+	)
+	(pad "2" smd roundrect
+		(at 2.539586 3.695194)
+		(size 1.3 4.390388)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "74c9fb2f-a674-47e9-89c4-de063455dd79")
+	)
+	(pad "3" smd roundrect
+		(at 2.539586 -3.704805)
+		(size 1.3 4.40961)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "dada20a0-e8dd-4d44-bccf-c4243de2d669")
+	)
+	(pad "4" smd roundrect
+		(at -2.540414 -3.704805)
+		(size 1.3 4.40961)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "80780ae9-2551-4d61-9a93-9fc33532ecd6")
+	)
+	(group ""
+		(uuid "04c66fdc-fc67-4007-b00b-ab1ab04ec505")
+		(members "9e28c07b-d39c-4b8d-8ce9-541a75e05321" "dff2579e-cf97-4931-8bb9-c1873670bcf7")
+	)
+	(group ""
+		(uuid "1c63bc91-e667-4b34-baf1-1a98b38bfa03")
+		(members "6449bf2c-63fc-4753-868c-7fd7d3c0cd62" "a54747d8-c1a0-45c7-80e0-a22d75871943")
+	)
+	(group ""
+		(uuid "1c8ce156-e2c8-4dd1-8cbe-f66a3a231097")
+		(members "40efe364-5e00-4e87-bd55-7f3b0e1ff3d4" "6b461c03-5914-4f71-a643-78a8ca1d2695")
+	)
+	(group ""
+		(uuid "2a8dc6cd-05bc-4f0c-8079-76bcc9cc70fe")
+		(members "4f424cec-a878-49ff-a9a4-c0271440c447" "d4d7b8b3-3f20-4aba-b841-0a3c9fd51360")
+	)
+	(group ""
+		(uuid "3dd8bd46-4ab7-402c-b995-cc1cdd137f25")
+		(members "68a579f1-fd03-4135-bcac-e58752ebfd46" "6de93248-48ca-4db7-a13a-20687e4265c2")
+	)
+	(group ""
+		(uuid "5d5d635f-3b4c-40ce-b519-3d60ba2b28af")
+		(members "9935106c-4bd6-4352-8b58-717fe2a64dc5" "c8ffb647-2caa-4967-bb5b-538c66df1756")
+	)
+	(group ""
+		(uuid "7056fe85-e976-4e8c-ad62-5bf5af7c1dc6")
+		(members "da76a950-f709-4fce-9ee0-9f00f7d93d19" "e3eb2d08-0125-4f35-ad60-831d5daed67e")
+	)
+	(group ""
+		(uuid "bc8ec99f-dae3-4131-b75b-12238964e9dd")
+		(members "8ad2d056-26fc-47c9-95d8-ec40ada4d3f4" "f441de99-af92-46cc-9f7a-8cb7648df5cd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
