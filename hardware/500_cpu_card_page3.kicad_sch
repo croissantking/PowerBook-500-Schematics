@@ -3242,7 +3242,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_QFP:PQFP-208_28x28mm_P0.5mm"
+			(property "Footprint" "Pratt:PQFP-208_PRATT"
 				(at 89.662 21.336 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5517,7 +5517,7 @@
 				(pin output line
 					(at -27.94 -21.59 0)
 					(length 3.8)
-					(name "~{IPL0}"
+					(name "~{IPL}0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5535,7 +5535,7 @@
 				(pin output line
 					(at -27.94 -19.05 0)
 					(length 3.8)
-					(name "~{IPL1}"
+					(name "~{IPL}1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5553,7 +5553,7 @@
 				(pin output line
 					(at -27.94 -16.51 0)
 					(length 3.8)
-					(name "~{IPL2}"
+					(name "~{IPL}2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14526,7 +14526,7 @@
 		)
 		(uuid "0522769f-3e0d-4504-b410-40df1d5e79f6")
 	)
-	(label "~{IPL0}"
+	(label "~{IPL}0"
 		(at 105.41 156.21 180)
 		(effects
 			(font
@@ -14566,7 +14566,7 @@
 		)
 		(uuid "0d40c187-e68b-4889-99d9-9dd58b6d49e5")
 	)
-	(label "~{IPL2}"
+	(label "~{IPL}2"
 		(at 105.41 151.13 180)
 		(effects
 			(font
@@ -14956,7 +14956,7 @@
 		)
 		(uuid "3f4fa819-7d4a-4213-a1a4-5368105faed0")
 	)
-	(label "~{IPL1}"
+	(label "~{IPL}1"
 		(at 105.41 153.67 180)
 		(effects
 			(font

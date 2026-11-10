@@ -14037,7 +14037,7 @@
 		)
 		(uuid "2cc81fcd-f849-4328-9ea5-ba01b5244820")
 	)
-	(label "~{IPL1}"
+	(label "~{IPL}1"
 		(at 140.97 86.36 0)
 		(effects
 			(font
@@ -14267,7 +14267,7 @@
 		)
 		(uuid "524a975e-268a-4353-9c11-6e415576abd4")
 	)
-	(label "~{IPL2}"
+	(label "~{IPL}2"
 		(at 140.97 88.9 0)
 		(effects
 			(font
@@ -14787,7 +14787,7 @@
 		)
 		(uuid "95932e2a-cdcc-4d85-867d-5197791487db")
 	)
-	(label "~{IPL0}"
+	(label "~{IPL}0"
 		(at 140.97 83.82 0)
 		(effects
 			(font

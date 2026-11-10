@@ -4967,7 +4967,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_QFP:PQFP-208_28x28mm_P0.5mm"
+			(property "Footprint" "Pratt:PQFP-208_PRATT"
 				(at 89.662 21.336 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7242,7 +7242,7 @@
 				(pin output line
 					(at -27.94 -21.59 0)
 					(length 3.8)
-					(name "~{IPL0}"
+					(name "~{IPL}0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7260,7 +7260,7 @@
 				(pin output line
 					(at -27.94 -19.05 0)
 					(length 3.8)
-					(name "~{IPL1}"
+					(name "~{IPL}1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7278,7 +7278,7 @@
 				(pin output line
 					(at -27.94 -16.51 0)
 					(length 3.8)
-					(name "~{IPL2}"
+					(name "~{IPL}2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9474,12 +9474,6 @@
 		(uuid "9df654e3-372f-4a1e-a6fd-fb5ad7143e43")
 	)
 	(junction
-		(at 109.22 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e5ee03a-e973-43d6-a3f5-396092ea8678")
-	)
-	(junction
 		(at 254 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9809,6 +9803,10 @@
 		(color 0 0 0 0)
 		(uuid "ffa16efd-3f80-4535-85f3-b320b6cb4239")
 	)
+	(no_connect
+		(at 109.22 153.67)
+		(uuid "19f37540-4732-4eed-9b62-83f4c61b8dbc")
+	)
 	(wire
 		(pts
 			(xy 187.96 128.27) (xy 187.96 127)
@@ -10028,16 +10026,6 @@
 			(type default)
 		)
 		(uuid "10929d2d-d923-45d5-ae50-df3f79a67b21")
-	)
-	(wire
-		(pts
-			(xy 109.22 154.94) (xy 109.22 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11184717-1804-4bf5-a1b3-d2a356d047c8")
 	)
 	(wire
 		(pts
@@ -10681,7 +10669,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 154.94) (xy 109.22 154.94)
+			(xy 96.52 154.94) (xy 111.76 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12678,16 +12666,6 @@
 			(type default)
 		)
 		(uuid "dee14f37-2af0-4e1a-9208-05347d39b393")
-	)
-	(wire
-		(pts
-			(xy 109.22 154.94) (xy 111.76 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df13fa28-6999-40e7-b151-c17228ee2078")
 	)
 	(wire
 		(pts
