@@ -8994,6 +8994,12 @@
 		(uuid "22f28d71-9c56-472a-9ffd-33ed39260acc")
 	)
 	(junction
+		(at 59.69 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f6d932-c33d-4e3d-ba08-e0d291b56977")
+	)
+	(junction
 		(at 175.26 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10249,7 +10255,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 210.82) (xy 59.69 214.63)
+			(xy 59.69 190.5) (xy 59.69 196.85)
 		)
 		(stroke
 			(width 0)
@@ -12499,6 +12505,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 196.85) (xy 59.69 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e24999-359a-48e2-be23-db149de590e3")
+	)
+	(wire
+		(pts
 			(xy 152.4 222.25) (xy 165.1 222.25)
 		)
 		(stroke
@@ -13049,6 +13065,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 196.85) (xy 59.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2908fde-8f14-485f-b59c-2a7448587357")
+	)
+	(wire
+		(pts
 			(xy 133.35 251.46) (xy 146.05 251.46)
 		)
 		(stroke
@@ -13440,6 +13466,29 @@
 		(uuid "21178cdd-609e-43ea-9efa-2f389b1d6b3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 283.7929 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "+5V_OSC"
+		(shape input)
+		(at 39.37 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b35b195-d0e8-4855-b82f-cecace965375")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7367 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18097,7 +18146,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 59.69 210.82 0)
+		(at 59.69 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18107,7 +18156,7 @@
 		(dnp no)
 		(uuid "7a15f17c-f460-4a21-8adf-79d9c29dec11")
 		(property "Reference" "#PWR053"
-			(at 59.69 214.63 0)
+			(at 59.69 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18118,7 +18167,7 @@
 			)
 		)
 		(property "Value" "+5V_OSC"
-			(at 59.69 205.74 0)
+			(at 59.69 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18128,7 +18177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 210.82 0)
+			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18139,7 +18188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 210.82 0)
+			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18150,7 +18199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 210.82 0)
+			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
