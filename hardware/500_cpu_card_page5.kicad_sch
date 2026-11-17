@@ -18731,7 +18731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pratt:Mot_QFP184"
+		(property "Footprint" "Pratt:Mot_QFP184_Updated"
 			(at 113.538 268.732 0)
 			(hide yes)
 			(show_name no)

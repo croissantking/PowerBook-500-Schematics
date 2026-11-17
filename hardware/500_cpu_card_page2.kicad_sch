@@ -18328,7 +18328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pratt:Mot_QFP184"
+		(property "Footprint" "Pratt:Mot_QFP184_Updated"
 			(at 118.618 264.922 0)
 			(hide yes)
 			(show_name no)
@@ -19193,7 +19193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pratt:Dual-Oscillator_PRATT"
+		(property "Footprint" "Pratt:Dual-Oscillator_PRATT_Updated"
 			(at 302.26 73.66 0)
 			(hide yes)
 			(show_name no)
